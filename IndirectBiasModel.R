@@ -17,10 +17,14 @@ library(RColorBrewer)
 
 # A modified indirect bias model, introducing a variable to account for the attractiveness of a model (i.e., a success cue). 
 
-# Here, payoffs and success cues can still be perfectly correlated, but models are chosen based on the attractiveness of the 
-# correlated trait (payoffs not visible).
+# In this model, payoffs and success cues can still be perfectly correlated, but models are chosen based on the attractiveness of the 
+# correlated trait (payoffs are not visible).
 
 # A learner's payoffs are still identical to the model's, contingent on the variant learned.
+
+# This model was adapted from Mesoudi, Alex (2021). Simulation models of cultural evolution in R. 
+# doi:10.5281/zenodo.5155821. Available at https://github.com/amesoudi/cultural_evolution_ABM_tutorial and 
+# https://bookdown.org/amesoudi/ABMtutorial_bookdown/.
 
 ### The agent-based model ###
 
